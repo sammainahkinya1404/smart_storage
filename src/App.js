@@ -11,9 +11,9 @@ function App() {
       <div className="App">
         <h1>Smart Storage</h1>
         <Routes>
-          <Route path="/" element={<ItemList />} />
+          <Route path="/" element={<RegisterForm />} />
           <Route path="/login" element={<LoginForm />} />
-          <Route path="/register" element={<RegisterForm />} />
+          <Route path="/ItemList" element={<ItemList />} />
         </Routes>
       </div>
     </Router>
